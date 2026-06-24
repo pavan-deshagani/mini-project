@@ -1,0 +1,4167 @@
+[
+  {
+    "crop_name": "Rice (Paddy)",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 100,
+        "max": 150
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 1000,
+        "max_mm": 2000
+      },
+      "humidity": {
+        "min_percent": 70,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Very High",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Clay",
+        "Clay Loam",
+        "Silty Clay"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium-High (15–30)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Dhan / Chawal",
+      "latest_msp_or_frp": 2369,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 2450,
+      "price_volatility_score_cv_pct": 12.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 43.73,
+      "approx_input_cost_per_hectare": 67000,
+      "gross_revenue_per_hectare": 107138,
+      "estimated_net_return_per_hectare": 40138
+    },
+    "agronomist_remarks": "Flooded/puddled soil essential; Zn deficiency most common in India; ICAR CRRI RDF: 80-40-40 kg NPK/ha (Kharif HYV); hybrid rice 100-60-60; split N in 3 doses; Zn @ 25 kg ZnSO4/ha on deficient soils"
+  },
+  {
+    "crop_name": "Wheat",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 150,
+        "max": 175
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 10.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 450,
+        "max_mm": 650
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 70
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Clay Loam",
+        "Silt Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 6.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Gehun / Godhuma",
+      "latest_msp_or_frp": 2585,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 2530,
+      "price_volatility_score_cv_pct": 10.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 33.0,
+      "approx_input_cost_per_hectare": 42000,
+      "gross_revenue_per_hectare": 83490,
+      "estimated_net_return_per_hectare": 41490
+    },
+    "agronomist_remarks": "Timely sowing critical; ICAR-IIWR RDF 120:60:40 kg NPK/ha; max 150-175 kg N for HYV irrigated; split urea (1/3 basal + 1/3 CRI + 1/3 ear emergence); Zn/Fe deficiency on calcareous soils; S @ 20 kg/ha on S-deficient soils"
+  },
+  {
+    "crop_name": "Maize (Corn)",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 150,
+        "max": 200
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      }
+    },
+    "ph_range": {
+      "min": 5.8,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 18.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 800
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Clay Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Makka / Bhutta",
+      "latest_msp_or_frp": 2400,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 2150,
+      "price_volatility_score_cv_pct": 20.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 38.02,
+      "approx_input_cost_per_hectare": 55000,
+      "gross_revenue_per_hectare": 81743,
+      "estimated_net_return_per_hectare": 26743
+    },
+    "agronomist_remarks": "ICAR IIMR RDF: 120:60:40 kg NPK/ha; research shows max N response at 160 kg/ha; side-dress N at V6; Zn @ 10 kg ZnSO4·7H2O/acre basal; Fe deficiency on alkaline soils; luxury K consumption common"
+  },
+  {
+    "crop_name": "Sorghum (Jowar)",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 8.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 40.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 800
+      },
+      "humidity": {
+        "min_percent": 40,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 100,
+      "suitable_soil_types": [
+        "Vertisol",
+        "Loam",
+        "Sandy Loam",
+        "Red Soil"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (5–20)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 6.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Jawar / Cholam",
+      "latest_msp_or_frp": 3699,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 3100,
+      "price_volatility_score_cv_pct": 25.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 13.56,
+      "approx_input_cost_per_hectare": 30000,
+      "gross_revenue_per_hectare": 42036,
+      "estimated_net_return_per_hectare": 12036
+    },
+    "agronomist_remarks": "Excellent drought tolerance; Al toxicity risk on acidic soils"
+  },
+  {
+    "crop_name": "Pearl Millet (Bajra)",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      },
+      "phosphorus": {
+        "min": 15,
+        "optimum": 30,
+        "max": 50
+      },
+      "potassium": {
+        "min": 15,
+        "optimum": 30,
+        "max": 50
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 42.0
+      },
+      "rainfall": {
+        "min_mm": 200,
+        "max_mm": 600
+      },
+      "humidity": {
+        "min_percent": 40,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Low",
+      "duration_days": 75,
+      "suitable_soil_types": [
+        "Sandy",
+        "Sandy Loam",
+        "Loamy Sand",
+        "Red Laterite"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low (5–15)",
+      "organic_matter_min_pct": 0.5,
+      "salinity_tolerance_ds_m": 8.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Cumbu / Sajjalu",
+      "latest_msp_or_frp": 2775,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 2400,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 16.59,
+      "approx_input_cost_per_hectare": 25000,
+      "gross_revenue_per_hectare": 39816,
+      "estimated_net_return_per_hectare": 14816
+    },
+    "agronomist_remarks": "Most drought tolerant cereal; suited to marginal lands; no waterlogging"
+  },
+  {
+    "crop_name": "Finger Millet (Ragi)",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 5.0,
+      "optimum": 6.0,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 1200
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Red Laterite",
+        "Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (5–15)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Mandua / Kelvaragu",
+      "latest_msp_or_frp": 4886,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 4200,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 18.04,
+      "approx_input_cost_per_hectare": 52000,
+      "gross_revenue_per_hectare": 75768,
+      "estimated_net_return_per_hectare": 23768
+    },
+    "agronomist_remarks": "Rich in Ca & Fe; tolerates low-fertility soils; intercrop with legumes"
+  },
+  {
+    "crop_name": "Barley",
+    "crop_category": "Cereal",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 130
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.8,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 5.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 300,
+        "max_mm": 600
+      },
+      "humidity": {
+        "min_percent": 45,
+        "max_percent": 70
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 8.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Jau / Yavam",
+      "latest_msp_or_frp": 2150,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 1900,
+      "price_volatility_score_cv_pct": 18.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 26.0,
+      "approx_input_cost_per_hectare": 32000,
+      "gross_revenue_per_hectare": 49400,
+      "estimated_net_return_per_hectare": 17400
+    },
+    "agronomist_remarks": "Most salt-tolerant cereal; B deficiency can cause sterility"
+  },
+  {
+    "crop_name": "Chickpea (Bengal Gram)",
+    "crop_category": "Pulse",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 10.0,
+        "max_c": 30.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 650
+      },
+      "humidity": {
+        "min_percent": 40,
+        "max_percent": 70
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low",
+      "duration_days": 100,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Vertisol",
+        "Red Soil"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 6.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Senaga Pappu / Kadalai",
+      "latest_msp_or_frp": 5875,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 5750,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 12.0,
+      "approx_input_cost_per_hectare": 38000,
+      "gross_revenue_per_hectare": 69000,
+      "estimated_net_return_per_hectare": 31000
+    },
+    "agronomist_remarks": "Rhizobium (Mesorhizobium) inoculation mandatory; fixes 40-80 kg N/ha; starter N 15-20 kg/ha; P @ 40-60 kg P2O5/ha basal; ICAR RDF: 20:60:40 kg NPK/ha; Zn & B deficiency on alkali soils; Mo essential for nodulation"
+  },
+  {
+    "crop_name": "Pigeon Pea (Tur/Arhar)",
+    "crop_category": "Pulse",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 40
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 600,
+        "max_mm": 1000
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 170,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red",
+        "Laterite"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Togari / Kandi Pappu",
+      "latest_msp_or_frp": 8000,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 9500,
+      "price_volatility_score_cv_pct": 30.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 10.81,
+      "approx_input_cost_per_hectare": 51000,
+      "gross_revenue_per_hectare": 102695,
+      "estimated_net_return_per_hectare": 51695
+    },
+    "agronomist_remarks": "Deep-rooted; fixes 40-200 kg N/ha; ICAR IIPR RDF: 20:50:20 kg NPK/ha; P response highest at 50-60 kg P2O5/ha; Phytophthora root rot under waterlogging; medium-duration 170 days, long-duration 240+ days"
+  },
+  {
+    "crop_name": "Lentil (Masur)",
+    "crop_category": "Pulse",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 50,
+        "max": 70
+      },
+      "potassium": {
+        "min": 15,
+        "optimum": 30,
+        "max": 50
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 5.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 250,
+        "max_mm": 500
+      },
+      "humidity": {
+        "min_percent": 40,
+        "max_percent": 70
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low",
+      "duration_days": 110,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Clay Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 5.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Masoor Dal",
+      "latest_msp_or_frp": 7000,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 7200,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 10.0,
+      "approx_input_cost_per_hectare": 33000,
+      "gross_revenue_per_hectare": 72000,
+      "estimated_net_return_per_hectare": 39000
+    },
+    "agronomist_remarks": "ICAR RDF: 15-20:40-60:20-30 kg NPK/ha; Rhizobium inoculation adds 20-25 kg N/ha equivalent; sensitive to waterlogging; Mo (1-2 kg/ha as ammonium molybdate) essential for Rhizobium activity; Zn @ 25 kg ZnSO4/ha on deficient soils"
+  },
+  {
+    "crop_name": "Mung Bean (Green Gram)",
+    "crop_category": "Pulse",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      },
+      "phosphorus": {
+        "min": 25,
+        "optimum": 50,
+        "max": 70
+      },
+      "potassium": {
+        "min": 15,
+        "optimum": 30,
+        "max": 50
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 25.0,
+        "max_c": 38.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 700
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif",
+        "Zaid"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 65,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Pesalu / Pachai Payiru",
+      "latest_msp_or_frp": 8768,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 8500,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 5.18,
+      "approx_input_cost_per_hectare": 30000,
+      "gross_revenue_per_hectare": 44030,
+      "estimated_net_return_per_hectare": 14030
+    },
+    "agronomist_remarks": "ICAR RDF: 15-20:35-40:20-25 kg NPK/ha; Bradyrhizobium inoculation; short duration 55-65 days; excellent Zaid/summer crop; Mo & Zn critical; salt-sensitive; Zn @ 20-25 kg ZnSO4/ha on deficient soils"
+  },
+  {
+    "crop_name": "Black Gram (Urad)",
+    "crop_category": "Pulse",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 35,
+        "max": 50
+      },
+      "potassium": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 25.0,
+        "max_c": 40.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 800
+      },
+      "humidity": {
+        "min_percent": 65,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 70,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Black Cotton"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Minumulu / Ulundu",
+      "latest_msp_or_frp": 7800,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 8000,
+      "price_volatility_score_cv_pct": 25.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 6.06,
+      "approx_input_cost_per_hectare": 30000,
+      "gross_revenue_per_hectare": 48480,
+      "estimated_net_return_per_hectare": 18480
+    },
+    "agronomist_remarks": "ICAR Kharif 2025 RDF: 15:35:15 kg NPK/ha; Bradyrhizobium inoculation critical; P dose of 35 kg P2O5/ha is key; higher humidity tolerance than mung; waterlogging risk at pod-fill stage"
+  },
+  {
+    "crop_name": "Soybean",
+    "crop_category": "Pulse",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.8,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 1000
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 100,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Clay Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (12–22)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 5.0,
+      "critical_deficiency_nutrient": "Iron",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Soya / Bhatmas",
+      "latest_msp_or_frp": 5328,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 4800,
+      "price_volatility_score_cv_pct": 20.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 12.15,
+      "approx_input_cost_per_hectare": 40000,
+      "gross_revenue_per_hectare": 58320,
+      "estimated_net_return_per_hectare": 18320
+    },
+    "agronomist_remarks": "IISS RDF: 20:60:20 kg NPK/ha (standard); Fe-deficiency chlorosis major issue on pH>7; Bradyrhizobium japonicum seed inoculation mandatory; Zn @ 25 kg ZnSO4/ha; Mo @ 1 kg/ha enhances nodulation; S @ 20-30 kg/ha for protein synthesis"
+  },
+  {
+    "crop_name": "Groundnut (Peanut)",
+    "crop_category": "Oilseed",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 30
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 25.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 700
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Red Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (5–15)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Calcium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Pallelu / Verkadalai",
+      "latest_msp_or_frp": 7263,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 6800,
+      "price_volatility_score_cv_pct": 20.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 16.17,
+      "approx_input_cost_per_hectare": 73000,
+      "gross_revenue_per_hectare": 109956,
+      "estimated_net_return_per_hectare": 36956
+    },
+    "agronomist_remarks": "ICAR RDF: 20:60:80 kg NPK/ha; Ca (gypsum 400-500 kg/ha) must reach pegs directly; B @ 1-2 kg/ha & Zn @ 25 kg ZnSO4/ha often deficient; K must be applied as MOP not SOP; avoid waterlogging during pegging"
+  },
+  {
+    "crop_name": "Mustard/Rapeseed",
+    "crop_category": "Oilseed",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 120,
+        "max": 160
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 8.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 300,
+        "max_mm": 500
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 70
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Clay Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 5.0,
+      "critical_deficiency_nutrient": "Sulfur",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Sarson / Aavalu",
+      "latest_msp_or_frp": 6200,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 5800,
+      "price_volatility_score_cv_pct": 18.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 14.0,
+      "approx_input_cost_per_hectare": 35000,
+      "gross_revenue_per_hectare": 81200,
+      "estimated_net_return_per_hectare": 46200
+    },
+    "agronomist_remarks": "ICAR DRMR RDF: 120:60:40 kg NPK/ha + S 30-40 kg/ha mandatory for oil quality and glucosinolate synthesis; gypsum or SSP preferred S source; B (1-2 kg/ha) prevents hollow stem; Zn @ 25 kg ZnSO4/ha on deficient soils"
+  },
+  {
+    "crop_name": "Sunflower",
+    "crop_category": "Oilseed",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 90,
+        "max": 120
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 80,
+        "max": 100
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 700
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif",
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Clay Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Boron",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Surajmukhi / Puvvu",
+      "latest_msp_or_frp": 7721,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 6500,
+      "price_volatility_score_cv_pct": 25.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 8.04,
+      "approx_input_cost_per_hectare": 39000,
+      "gross_revenue_per_hectare": 52259,
+      "estimated_net_return_per_hectare": 13259
+    },
+    "agronomist_remarks": "ICAR RDF: 90:60:60 kg NPK/ha + B 1.5-2 kg/ha (borax) critical for pollen viability and seed set; high K demand; S @ 20-30 kg/ha improves oil content; tolerates slightly acidic soils; Mg deficiency on sandy soils"
+  },
+  {
+    "crop_name": "Sesame (Til)",
+    "crop_category": "Oilseed",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 30,
+        "optimum": 50,
+        "max": 80
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 25.0,
+        "max_c": 40.0
+      },
+      "rainfall": {
+        "min_mm": 300,
+        "max_mm": 600
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Low",
+      "duration_days": 85,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red Soil"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low (5–15)",
+      "organic_matter_min_pct": 0.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Nuvvulu / Ellu",
+      "latest_msp_or_frp": 9846,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 10500,
+      "price_volatility_score_cv_pct": 30.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 5.02,
+      "approx_input_cost_per_hectare": 31000,
+      "gross_revenue_per_hectare": 52709,
+      "estimated_net_return_per_hectare": 21709
+    },
+    "agronomist_remarks": "Very sensitive to waterlogging (dies within 48h); ICAR RDF: 40-50:30-40:20-30 kg NPK/ha; high temperature tolerant; P critical for oil synthesis; no excess N (promotes vegetative growth, reduces oil); S @ 20 kg/ha improves oil quality"
+  },
+  {
+    "crop_name": "Linseed (Flaxseed)",
+    "crop_category": "Oilseed",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 30,
+        "optimum": 60,
+        "max": 90
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 10.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 300,
+        "max_mm": 500
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 70
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low-Medium",
+      "duration_days": 110,
+      "suitable_soil_types": [
+        "Loam",
+        "Clay Loam",
+        "Silty Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Alsi",
+      "latest_msp_or_frp": 6425,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 6800,
+      "price_volatility_score_cv_pct": 20.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 7.8,
+      "approx_input_cost_per_hectare": 28000,
+      "gross_revenue_per_hectare": 53040,
+      "estimated_net_return_per_hectare": 25040
+    },
+    "agronomist_remarks": "Sensitive to drought at flowering; Zn & B often limiting"
+  },
+  {
+    "crop_name": "Potato",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 180,
+        "max": 220
+      },
+      "phosphorus": {
+        "min": 60,
+        "optimum": 120,
+        "max": 160
+      },
+      "potassium": {
+        "min": 100,
+        "optimum": 200,
+        "max": 280
+      }
+    },
+    "ph_range": {
+      "min": 5.0,
+      "optimum": 6.0,
+      "max": 6.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 700
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Silty Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (12–22)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Aloo / Bangaladumpa",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 900,
+      "price_volatility_score_cv_pct": 40.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 260.0,
+      "approx_input_cost_per_hectare": 100000,
+      "gross_revenue_per_hectare": 234000,
+      "estimated_net_return_per_hectare": 134000
+    },
+    "agronomist_remarks": "ICAR CPRI RDF: 150:100:150 kg NPK/ha (irrigated); N max 200-220 kg/ha for very high-yield; K:N ratio 1.5:1 critical for tuber quality; Ca & B prevent hollow heart; Mg @ 40-50 kg MgSO4/ha for chlorophyll; Zn @ 25 kg ZnSO4/ha"
+  },
+  {
+    "crop_name": "Tomato",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 150,
+        "max": 200
+      },
+      "phosphorus": {
+        "min": 60,
+        "optimum": 100,
+        "max": 200
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 120,
+        "max": 200
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 18.0,
+        "max_c": 32.0
+      },
+      "rainfall": {
+        "min_mm": 600,
+        "max_mm": 1200
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif",
+        "Rabi"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red Soil",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (12–22)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Calcium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Tamatar / Tomato",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1800,
+      "price_volatility_score_cv_pct": 65.0,
+      "volatility_risk_band": "Very High",
+      "avg_yield_qtl_per_hectare": 230.0,
+      "approx_input_cost_per_hectare": 105000,
+      "gross_revenue_per_hectare": 414000,
+      "estimated_net_return_per_hectare": 309000
+    },
+    "agronomist_remarks": "TNAU RDF open varieties: 150:100:50 kg NPK/ha; hybrid fertigation: 200:250:250 kg NPK/ha; Ca (calcium nitrate 100-150 kg/ha) prevents blossom-end rot; Mg (MgSO4 foliar) at fruiting stage; Fe/Mn balance critical; B @ 1-2 kg/ha for fruit set"
+  },
+  {
+    "crop_name": "Onion",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 13.0,
+        "max_c": 30.0
+      },
+      "rainfall": {
+        "min_mm": 350,
+        "max_mm": 600
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 130,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Sulfur",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Pyaaz / Ulli",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1400,
+      "price_volatility_score_cv_pct": 60.0,
+      "volatility_risk_band": "Very High",
+      "avg_yield_qtl_per_hectare": 220.0,
+      "approx_input_cost_per_hectare": 85000,
+      "gross_revenue_per_hectare": 308000,
+      "estimated_net_return_per_hectare": 223000
+    },
+    "agronomist_remarks": "ICAR RDF: 100:50:50 kg NPK/ha + S 20-30 kg/ha (critical for pungency and allicin synthesis); split N in 3 doses (basal 50% + 30 DAT + 45 DAT); Ca for dry matter and shelf life; B (1 kg/ha) for bulb development; avoid excess N after bulb initiation"
+  },
+  {
+    "crop_name": "Cauliflower",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 120,
+        "max": 160
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 700
+      },
+      "humidity": {
+        "min_percent": 65,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Clay Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (12–22)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Boron",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Phool Gobhi",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1800,
+      "price_volatility_score_cv_pct": 35.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 220.0,
+      "approx_input_cost_per_hectare": 55000,
+      "gross_revenue_per_hectare": 396000,
+      "estimated_net_return_per_hectare": 341000
+    },
+    "agronomist_remarks": "ICAR RDF: 120:80:60 kg NPK/ha + B 1.5-2 kg/ha (borax) basal; B deficiency causes browning/hollow curd; Mo (0.5 kg/ha sodium molybdate) prevents whiptail; Ca prevents tip-burn; split N in 3 doses; high humidity essential for curd development"
+  },
+  {
+    "crop_name": "Brinjal (Eggplant)",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 120,
+        "max": 160
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 100,
+        "max": 120
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 600,
+        "max_mm": 1200
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif",
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 150,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red Soil"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Baingan",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1400,
+      "price_volatility_score_cv_pct": 38.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 200.0,
+      "approx_input_cost_per_hectare": 50000,
+      "gross_revenue_per_hectare": 280000,
+      "estimated_net_return_per_hectare": 230000
+    },
+    "agronomist_remarks": "Highest Mg demand among solanaceae; Fe & Zn foliar beneficial; K for fruit quality"
+  },
+  {
+    "crop_name": "Okra (Bhindi)",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 24.0,
+        "max_c": 42.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 1000
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 60,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Clay Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Bhindi / Lady Finger",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 2000,
+      "price_volatility_score_cv_pct": 30.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 100.0,
+      "approx_input_cost_per_hectare": 45000,
+      "gross_revenue_per_hectare": 200000,
+      "estimated_net_return_per_hectare": 155000
+    },
+    "agronomist_remarks": "Requires warm conditions; Mg & Zn key for fruit set; Fe foliar at flowering"
+  },
+  {
+    "crop_name": "Carrot",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 10.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 600
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Deep Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Gajar",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1600,
+      "price_volatility_score_cv_pct": 32.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 250.0,
+      "approx_input_cost_per_hectare": 52000,
+      "gross_revenue_per_hectare": 400000,
+      "estimated_net_return_per_hectare": 348000
+    },
+    "agronomist_remarks": "Deep, loose soil essential for taproot; B & Ca prevent tip burn; avoid excess N"
+  },
+  {
+    "crop_name": "Spinach",
+    "crop_category": "Vegetable",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 100,
+        "max": 120
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 60,
+        "max": 80
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 10.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 300,
+        "max_mm": 500
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 45,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Iron",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Palak",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1200,
+      "price_volatility_score_cv_pct": 40.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 150.0,
+      "approx_input_cost_per_hectare": 35000,
+      "gross_revenue_per_hectare": 180000,
+      "estimated_net_return_per_hectare": 145000
+    },
+    "agronomist_remarks": "Fe critical for human nutrition value; avoid pH>7.5 (Fe & Mn lock-up); rapid N uptake"
+  },
+  {
+    "crop_name": "Banana",
+    "crop_category": "Fruit",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 200,
+        "max": 300
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 50,
+        "max": 80
+      },
+      "potassium": {
+        "min": 150,
+        "optimum": 300,
+        "max": 450
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 1200,
+        "max_mm": 2500
+      },
+      "humidity": {
+        "min_percent": 75,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Very High",
+      "duration_days": 365,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Clay Loam",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium-High (15–25)",
+      "organic_matter_min_pct": 2.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Kela / Arati Pandu",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1000,
+      "price_volatility_score_cv_pct": 25.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 350.0,
+      "approx_input_cost_per_hectare": 140000,
+      "gross_revenue_per_hectare": 350000,
+      "estimated_net_return_per_hectare": 210000
+    },
+    "agronomist_remarks": "TNAU RDF (tissue culture): 200:100:300 kg NPK/plant/year (Cavendish); highest K demand of any field crop; Mg @ 60-80 kg MgSO4/ha critical (K-Mg antagonism); Zn (25 kg ZnSO4/ha) & B (1-2 kg borax/ha) for bunch quality; drip fertigation recommended; fertilizer application must complete within 100-120 DAP"
+  },
+  {
+    "crop_name": "Mango",
+    "crop_category": "Fruit",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 200,
+        "max": 300
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 100
+      },
+      "potassium": {
+        "min": 80,
+        "optimum": 150,
+        "max": 250
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 24.0,
+        "max_c": 45.0
+      },
+      "rainfall": {
+        "min_mm": 750,
+        "max_mm": 2500
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 1825,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Laterite",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Zinc",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Aam",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 4500,
+      "price_volatility_score_cv_pct": 28.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 80.0,
+      "approx_input_cost_per_hectare": 60000,
+      "gross_revenue_per_hectare": 360000,
+      "estimated_net_return_per_hectare": 300000
+    },
+    "agronomist_remarks": "ICAR NRC Mango RDF: per tree >10 yr 1 kg each NPK (2.2 kg Urea + 1.6 kg SSP + 1.7 kg MOP); Zn deficiency causes \"little leaf\"; B for fruit set; alternate bearing managed by K application; KNO3 foliar spray for flower induction; Mg foliar at fruit development"
+  },
+  {
+    "crop_name": "Citrus (Orange/Lemon)",
+    "crop_category": "Fruit",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 200,
+        "max": 300
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 100
+      },
+      "potassium": {
+        "min": 100,
+        "optimum": 200,
+        "max": 280
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 750,
+        "max_mm": 1250
+      },
+      "humidity": {
+        "min_percent": 65,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 1825,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (12–22)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Zinc",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Santra / Nimbu",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 3800,
+      "price_volatility_score_cv_pct": 30.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 90.0,
+      "approx_input_cost_per_hectare": 65000,
+      "gross_revenue_per_hectare": 342000,
+      "estimated_net_return_per_hectare": 277000
+    },
+    "agronomist_remarks": "ICAR RDF: 600 g N + 200 g P2O5 + 600 g K2O per tree/year (bearing); Fe, Zn & Mn chelate foliar sprays 3-4 times/year; Mg (MgSO4 0.5% foliar) essential; K for juice quality and TSS; B (borax 0.3%) prevents flower drop; Zn 0.5% foliar for fruit size"
+  },
+  {
+    "crop_name": "Grapes",
+    "crop_category": "Fruit",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 150,
+        "max": 200
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      },
+      "potassium": {
+        "min": 100,
+        "optimum": 180,
+        "max": 250
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 800
+      },
+      "humidity": {
+        "min_percent": 55,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 1825,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Gravelly Loam",
+        "Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Angoor",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 13000,
+      "price_volatility_score_cv_pct": 25.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 200.0,
+      "approx_input_cost_per_hectare": 140000,
+      "gross_revenue_per_hectare": 2600000,
+      "estimated_net_return_per_hectare": 2460000
+    },
+    "agronomist_remarks": "K:Mg ratio critical; B for berry set; Ca for berry firmness; Zn for shoot elongation"
+  },
+  {
+    "crop_name": "Guava",
+    "crop_category": "Fruit",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 150,
+        "max": 200
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 50,
+        "max": 80
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 120,
+        "max": 180
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 600,
+        "max_mm": 1200
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 1825,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Laterite",
+        "Various"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 5.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Amrood",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 2500,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 200.0,
+      "approx_input_cost_per_hectare": 45000,
+      "gross_revenue_per_hectare": 500000,
+      "estimated_net_return_per_hectare": 455000
+    },
+    "agronomist_remarks": "Highly adaptable; Zn & B for fruit quality; avoid waterlogging"
+  },
+  {
+    "crop_name": "Papaya",
+    "crop_category": "Fruit",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 150,
+        "max": 200
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 90
+      },
+      "potassium": {
+        "min": 80,
+        "optimum": 150,
+        "max": 200
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 22.0,
+        "max_c": 38.0
+      },
+      "rainfall": {
+        "min_mm": 1000,
+        "max_mm": 2000
+      },
+      "humidity": {
+        "min_percent": 70,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 365,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red Soil",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Papita",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 1800,
+      "price_volatility_score_cv_pct": 35.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 400.0,
+      "approx_input_cost_per_hectare": 55000,
+      "gross_revenue_per_hectare": 720000,
+      "estimated_net_return_per_hectare": 665000
+    },
+    "agronomist_remarks": "Waterlogging kills within 24–48h; B & Ca critical; high Mg for latex production"
+  },
+  {
+    "crop_name": "Sugarcane",
+    "crop_category": "Cash Crop",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 150,
+        "optimum": 250,
+        "max": 300
+      },
+      "phosphorus": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "potassium": {
+        "min": 100,
+        "optimum": 200,
+        "max": 280
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 38.0
+      },
+      "rainfall": {
+        "min_mm": 1500,
+        "max_mm": 2500
+      },
+      "humidity": {
+        "min_percent": 65,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Very High",
+      "duration_days": 365,
+      "suitable_soil_types": [
+        "Loam",
+        "Clay Loam",
+        "Black Cotton",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium-High (15–30)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 6.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Ganna / Cheruku",
+      "latest_msp_or_frp": 355,
+      "msp_applicable": "FRP",
+      "historical_avg_market_price": 380,
+      "price_volatility_score_cv_pct": 8.0,
+      "volatility_risk_band": "Very Low",
+      "avg_yield_qtl_per_hectare": 750.0,
+      "approx_input_cost_per_hectare": 130000,
+      "gross_revenue_per_hectare": 285000,
+      "estimated_net_return_per_hectare": 155000
+    },
+    "agronomist_remarks": "ICAR SBI RDF (plant): 250:80:120 kg NPK/ha; ratoon: 275-300 kg N; Si application (200 kg silica/ha) improves disease resistance and stalk strength; split N in 3-4 doses; K for juice quality and sucrose accumulation; S @ 30 kg/ha improves CCS%"
+  },
+  {
+    "crop_name": "Cotton",
+    "crop_category": "Cash Crop",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 80,
+        "optimum": 120,
+        "max": 180
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 38.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 1000
+      },
+      "humidity": {
+        "min_percent": 55,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 180,
+      "suitable_soil_types": [
+        "Black Cotton Soil",
+        "Sandy Loam",
+        "Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium-High (15–30)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 8.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Kapas / Patthi",
+      "latest_msp_or_frp": 7710,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 7500,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 15.29,
+      "approx_input_cost_per_hectare": 73000,
+      "gross_revenue_per_hectare": 114675,
+      "estimated_net_return_per_hectare": 41675
+    },
+    "agronomist_remarks": "ICAR CICR RDF Bt hybrid: 120:60:60 kg NPK/ha; min N 80 kg/ha for economic dose; B (1-2 kg/ha borax) deficiency causes boll shedding; Mg (20 kg MgSO4/ha) for chlorophyll; K prevents premature senescence; S @ 25 kg/ha for lint quality; avoid excess N at boll development"
+  },
+  {
+    "crop_name": "Jute",
+    "crop_category": "Cash Crop",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.5,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 24.0,
+        "max_c": 38.0
+      },
+      "rainfall": {
+        "min_mm": 1200,
+        "max_mm": 2000
+      },
+      "humidity": {
+        "min_percent": 70,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Alluvial",
+        "Sandy Loam",
+        "Loam"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Pat / Narat",
+      "latest_msp_or_frp": 5650,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 5200,
+      "price_volatility_score_cv_pct": 15.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 20.0,
+      "approx_input_cost_per_hectare": 65000,
+      "gross_revenue_per_hectare": 104000,
+      "estimated_net_return_per_hectare": 39000
+    },
+    "agronomist_remarks": "Requires flooding tolerance; Fe & Mn available under flooded conditions; high humidity essential"
+  },
+  {
+    "crop_name": "Tobacco",
+    "crop_category": "Cash Crop",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 150
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 80
+      },
+      "potassium": {
+        "min": 80,
+        "optimum": 150,
+        "max": 200
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.0,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 18.0,
+        "max_c": 32.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 1000
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 80
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium",
+      "duration_days": 120,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Red Soil",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 2.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Tambakoo",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 17000,
+      "price_volatility_score_cv_pct": 20.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 18.0,
+      "approx_input_cost_per_hectare": 80000,
+      "gross_revenue_per_hectare": 306000,
+      "estimated_net_return_per_hectare": 226000
+    },
+    "agronomist_remarks": "NO Cl-based K fertilizers; K₂SO₄ only (Cl reduces leaf quality); ICAR CTRI RDF: 100:60:100 kg NPK/ha; low N after topping promotes leaf maturity; Mg (MgSO4 foliar) for leaf color; S @ 20 kg/ha for leaf aroma; split K application improves nicotine distribution"
+  },
+  {
+    "crop_name": "Turmeric",
+    "crop_category": "Spice",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 120,
+        "max": 180
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 120,
+        "max": 180
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 30.0
+      },
+      "rainfall": {
+        "min_mm": 1000,
+        "max_mm": 2000
+      },
+      "humidity": {
+        "min_percent": 65,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 270,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Clay Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 4.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Haldi / Pasupu",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 11000,
+      "price_volatility_score_cv_pct": 45.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 30.0,
+      "approx_input_cost_per_hectare": 115000,
+      "gross_revenue_per_hectare": 330000,
+      "estimated_net_return_per_hectare": 215000
+    },
+    "agronomist_remarks": "ICAR RDF: 150:60:120 kg NPK/ha + FYM 30-40 t/ha; K critical for curcumin content (higher K → higher curcumin); Zn (25 kg ZnSO4/ha) & B (1-2 kg borax/ha) for rhizome quality; Mg @ 30-40 kg MgSO4/ha; partial shade (50%) beneficial in summer; mulching essential"
+  },
+  {
+    "crop_name": "Ginger",
+    "crop_category": "Spice",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 120,
+        "max": 180
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 120,
+        "max": 180
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 30.0
+      },
+      "rainfall": {
+        "min_mm": 1250,
+        "max_mm": 2000
+      },
+      "humidity": {
+        "min_percent": 70,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 240,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red Laterite",
+        "Forest"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.5,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Adrak",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 10000,
+      "price_volatility_score_cv_pct": 45.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 80.0,
+      "approx_input_cost_per_hectare": 90000,
+      "gross_revenue_per_hectare": 800000,
+      "estimated_net_return_per_hectare": 710000
+    },
+    "agronomist_remarks": "ICAR RDF: 150:60:90 kg NPK/ha + FYM 25-30 t/ha; shade 50% in summer essential; ICAR IISR recommends 112:50:75 kg NPK/ha with drip fertigation; Fe & Mg for yield; Rhizome wilt (Pythium) is major threat under waterlogging; high OM (2.5%+) critical"
+  },
+  {
+    "crop_name": "Chilli (Pepper)",
+    "crop_category": "Spice",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 100,
+        "max": 140
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 600,
+        "max_mm": 1200
+      },
+      "humidity": {
+        "min_percent": 60,
+        "max_percent": 85
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Kharif",
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 150,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Red Soil",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Calcium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Mirchi / Mirapakaya",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 13000,
+      "price_volatility_score_cv_pct": 50.0,
+      "volatility_risk_band": "Very High",
+      "avg_yield_qtl_per_hectare": 22.0,
+      "approx_input_cost_per_hectare": 135000,
+      "gross_revenue_per_hectare": 286000,
+      "estimated_net_return_per_hectare": 151000
+    },
+    "agronomist_remarks": "ICAR RDF: 100:80:60 kg NPK/ha + Ca 50 kg (as CaNO3) prevents blossom-end rot; B 1-2 kg/ha for fruit set; Mg (MgSO4 0.5% foliar) & Fe for capsaicin synthesis; Zn & Fe foliar at flowering; split N in 3 doses (basal 50% + 30 DAT + 60 DAT)"
+  },
+  {
+    "crop_name": "Coriander",
+    "crop_category": "Spice",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 6.5,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 30.0
+      },
+      "rainfall": {
+        "min_mm": 300,
+        "max_mm": 600
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low",
+      "duration_days": 90,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low (5–15)",
+      "organic_matter_min_pct": 1.0,
+      "salinity_tolerance_ds_m": 5.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Dhania",
+      "latest_msp_or_frp": 7728,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 9000,
+      "price_volatility_score_cv_pct": 38.0,
+      "volatility_risk_band": "High",
+      "avg_yield_qtl_per_hectare": 12.5,
+      "approx_input_cost_per_hectare": 30000,
+      "gross_revenue_per_hectare": 112500,
+      "estimated_net_return_per_hectare": 82500
+    },
+    "agronomist_remarks": "Short duration; B & Zn for seed yield; sensitive to waterlogging"
+  },
+  {
+    "crop_name": "Cumin (Jeera)",
+    "crop_category": "Spice",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "phosphorus": {
+        "min": 15,
+        "optimum": 30,
+        "max": 50
+      },
+      "potassium": {
+        "min": 15,
+        "optimum": 30,
+        "max": 50
+      }
+    },
+    "ph_range": {
+      "min": 7.0,
+      "optimum": 7.5,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 8.0,
+        "max_c": 28.0
+      },
+      "rainfall": {
+        "min_mm": 250,
+        "max_mm": 500
+      },
+      "humidity": {
+        "min_percent": 35,
+        "max_percent": 65
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Low",
+      "duration_days": 100,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Well-drained"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low (5–15)",
+      "organic_matter_min_pct": 0.5,
+      "salinity_tolerance_ds_m": 6.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Jeera / Jilakara",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 24000,
+      "price_volatility_score_cv_pct": 55.0,
+      "volatility_risk_band": "Very High",
+      "avg_yield_qtl_per_hectare": 7.0,
+      "approx_input_cost_per_hectare": 35000,
+      "gross_revenue_per_hectare": 168000,
+      "estimated_net_return_per_hectare": 133000
+    },
+    "agronomist_remarks": "Drought tolerant; salt tolerant; high B demand for oil quality"
+  },
+  {
+    "crop_name": "Berseem (Egyptian Clover)",
+    "crop_category": "Fodder",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 40
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 80
+      },
+      "potassium": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      }
+    },
+    "ph_range": {
+      "min": 6.0,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 5.0,
+        "max_c": 25.0
+      },
+      "rainfall": {
+        "min_mm": 400,
+        "max_mm": 900
+      },
+      "humidity": {
+        "min_percent": 50,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 150,
+      "suitable_soil_types": [
+        "Loam",
+        "Clay Loam",
+        "Silty Loam",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.0,
+      "salinity_tolerance_ds_m": 8.0,
+      "critical_deficiency_nutrient": "Phosphorus",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Berseem",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 380,
+      "price_volatility_score_cv_pct": 15.0,
+      "volatility_risk_band": "Very Low",
+      "avg_yield_qtl_per_hectare": 750.0,
+      "approx_input_cost_per_hectare": 18000,
+      "gross_revenue_per_hectare": 28500,
+      "estimated_net_return_per_hectare": 10500
+    },
+    "agronomist_remarks": "Fixes 100-200 kg N/ha; ICAR RDF: 20:80:40 kg NPK/ha; Mo (1-2 kg/ha) critical for Rhizobium; highly responsive to P (P:N ratio matters); multi-cut (4-6 cuts/season); salt-tolerant to 8 dS/m; excellent winter fodder; grows best with assured irrigation"
+  },
+  {
+    "crop_name": "Lucerne (Alfalfa)",
+    "crop_category": "Fodder",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 10,
+        "optimum": 20,
+        "max": 40
+      },
+      "phosphorus": {
+        "min": 40,
+        "optimum": 80,
+        "max": 100
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      }
+    },
+    "ph_range": {
+      "min": 6.5,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 10.0,
+        "max_c": 32.0
+      },
+      "rainfall": {
+        "min_mm": 500,
+        "max_mm": 900
+      },
+      "humidity": {
+        "min_percent": 40,
+        "max_percent": 75
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Rabi"
+      ],
+      "water_requirement_level": "Medium-High",
+      "duration_days": 365,
+      "suitable_soil_types": [
+        "Loam",
+        "Sandy Loam",
+        "Well-drained",
+        "Deep"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium-High (15–30)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 5.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Rijka / Alfalfa",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 420,
+      "price_volatility_score_cv_pct": 15.0,
+      "volatility_risk_band": "Very Low",
+      "avg_yield_qtl_per_hectare": 800.0,
+      "approx_input_cost_per_hectare": 20000,
+      "gross_revenue_per_hectare": 33600,
+      "estimated_net_return_per_hectare": 13600
+    },
+    "agronomist_remarks": "Deep taproot (>6m); requires well-limed soil (pH 6.5-7.0); ICAR RDF: 20:80:60 kg NPK/ha; Mo & B for nodulation efficiency; K critical for regrowth after each cut; Ca (lime) for maintaining pH; Mn & Zn deficiency on alkaline soils; 6-8 cuts/year possible"
+  },
+  {
+    "crop_name": "Tea",
+    "crop_category": "Plantation",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 200,
+        "max": 250
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 120,
+        "max": 180
+      }
+    },
+    "ph_range": {
+      "min": 4.5,
+      "optimum": 5.5,
+      "max": 6.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 13.0,
+        "max_c": 30.0
+      },
+      "rainfall": {
+        "min_mm": 1500,
+        "max_mm": 3000
+      },
+      "humidity": {
+        "min_percent": 75,
+        "max_percent": 95
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Very High",
+      "duration_days": 3650,
+      "suitable_soil_types": [
+        "Acidic Loam",
+        "Sandy Loam",
+        "Laterite",
+        "Forest"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium-High (15–25)",
+      "organic_matter_min_pct": 3.0,
+      "salinity_tolerance_ds_m": 2.0,
+      "critical_deficiency_nutrient": "Zinc",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Chai",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 15000,
+      "price_volatility_score_cv_pct": 18.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 22.5,
+      "approx_input_cost_per_hectare": 100000,
+      "gross_revenue_per_hectare": 337500,
+      "estimated_net_return_per_hectare": 237500
+    },
+    "agronomist_remarks": "UPASI/TRI India RDF: 150-200 kg N/ha/year (split 6-8 doses); grows ONLY on acid soils (pH 4.5-5.5); Al toxicity > pH 6; Mg (MgSO4 50 kg/ha) & Zn (25 kg ZnSO4/ha) for flush quality; Fe abundant at low pH; Mn availability high at pH 4.5-5.5; K for cold hardiness"
+  },
+  {
+    "crop_name": "Coffee (Arabica)",
+    "crop_category": "Plantation",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 150
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 60,
+        "optimum": 100,
+        "max": 150
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 6.5,
+      "max": 7.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 15.0,
+        "max_c": 28.0
+      },
+      "rainfall": {
+        "min_mm": 1200,
+        "max_mm": 2000
+      },
+      "humidity": {
+        "min_percent": 70,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 3650,
+      "suitable_soil_types": [
+        "Sandy Loam",
+        "Loam",
+        "Well-drained",
+        "Volcanic"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (12–22)",
+      "organic_matter_min_pct": 2.5,
+      "salinity_tolerance_ds_m": 3.0,
+      "critical_deficiency_nutrient": "Zinc",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Kaapi",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 13000,
+      "price_volatility_score_cv_pct": 22.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 8.0,
+      "approx_input_cost_per_hectare": 80000,
+      "gross_revenue_per_hectare": 104000,
+      "estimated_net_return_per_hectare": 24000
+    },
+    "agronomist_remarks": "CCRI India RDF: 100:50:100 g NPK/plant/year (bearing); shade-grown preferred (30-50%); B (borax 0.3% foliar) & Zn (ZnSO4 0.5% foliar) for berry development; Mg (MgSO4 0.5%) for photosynthesis at altitude; Ca critical for bean quality; K for cup quality"
+  },
+  {
+    "crop_name": "Coconut",
+    "crop_category": "Plantation",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 100,
+        "optimum": 200,
+        "max": 300
+      },
+      "phosphorus": {
+        "min": 30,
+        "optimum": 60,
+        "max": 100
+      },
+      "potassium": {
+        "min": 200,
+        "optimum": 400,
+        "max": 600
+      }
+    },
+    "ph_range": {
+      "min": 5.5,
+      "optimum": 7.0,
+      "max": 8.0
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 38.0
+      },
+      "rainfall": {
+        "min_mm": 1200,
+        "max_mm": 2500
+      },
+      "humidity": {
+        "min_percent": 70,
+        "max_percent": 90
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "High",
+      "duration_days": 3650,
+      "suitable_soil_types": [
+        "Sandy",
+        "Sandy Loam",
+        "Laterite",
+        "Alluvial"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Low-Medium (8–18)",
+      "organic_matter_min_pct": 1.5,
+      "salinity_tolerance_ds_m": 8.0,
+      "critical_deficiency_nutrient": "Potassium",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Kopra / Kobbari Pindi",
+      "latest_msp_or_frp": 11582,
+      "msp_applicable": "Yes",
+      "historical_avg_market_price": 10500,
+      "price_volatility_score_cv_pct": 28.0,
+      "volatility_risk_band": "Moderate",
+      "avg_yield_qtl_per_hectare": 10.0,
+      "approx_input_cost_per_hectare": 90000,
+      "gross_revenue_per_hectare": 105000,
+      "estimated_net_return_per_hectare": 15000
+    },
+    "agronomist_remarks": "CPCRI India RDF: 500g N + 320g P2O5 + 1200g K2O per palm/year (adult bearing); highest K demand in plantation crops; Cl-tolerant (use KCl); B (borax 50g/palm) for button shedding prevention; Mn critical for West Coast tall; Fe & Zn deficiency on reclaimed soils; Mg @ 500g MgSO4/palm"
+  },
+  {
+    "crop_name": "Rubber",
+    "crop_category": "Plantation",
+    "nutrient_requirements": {
+      "nitrogen": {
+        "min": 60,
+        "optimum": 100,
+        "max": 150
+      },
+      "phosphorus": {
+        "min": 20,
+        "optimum": 40,
+        "max": 60
+      },
+      "potassium": {
+        "min": 40,
+        "optimum": 80,
+        "max": 120
+      }
+    },
+    "ph_range": {
+      "min": 4.5,
+      "optimum": 5.5,
+      "max": 6.5
+    },
+    "climate_conditions": {
+      "temperature": {
+        "min_c": 20.0,
+        "max_c": 35.0
+      },
+      "rainfall": {
+        "min_mm": 2000,
+        "max_mm": 4000
+      },
+      "humidity": {
+        "min_percent": 80,
+        "max_percent": 95
+      }
+    },
+    "farming_conditions": {
+      "season_name": [
+        "Year-round"
+      ],
+      "water_requirement_level": "Very High",
+      "duration_days": 3650,
+      "suitable_soil_types": [
+        "Laterite",
+        "Sandy Loam",
+        "Red Loam",
+        "Forest"
+      ]
+    },
+    "soil_science": {
+      "cec_requirement": "Medium (10–20)",
+      "organic_matter_min_pct": 2.5,
+      "salinity_tolerance_ds_m": 2.0,
+      "critical_deficiency_nutrient": "Nitrogen",
+      "mobile_nutrients": [
+        "N",
+        "P",
+        "K",
+        "Mg",
+        "Cl",
+        "Mo"
+      ],
+      "immobile_nutrients": [
+        "Fe",
+        "Zn",
+        "B",
+        "Ca",
+        "Cu",
+        "Mn",
+        "S"
+      ]
+    },
+    "economic_data": {
+      "local_alt_name": "Rabber",
+      "latest_msp_or_frp": null,
+      "msp_applicable": "No",
+      "historical_avg_market_price": 8000,
+      "price_volatility_score_cv_pct": 20.0,
+      "volatility_risk_band": "Low",
+      "avg_yield_qtl_per_hectare": 18.0,
+      "approx_input_cost_per_hectare": 70000,
+      "gross_revenue_per_hectare": 144000,
+      "estimated_net_return_per_hectare": 74000
+    },
+    "agronomist_remarks": "RRII India RDF immature (yr 1-4): 130-175:35:80 kg NPK/ha; mature: 100:25:75 kg NPK/ha; Mg (MgSO4 50 kg/ha) critical for latex production; Fe & Mn available at low pH; no calcareous soils (stunted growth, Fe chlorosis above pH 6); cover crops essential for soil N; Zn for shoot elongation"
+  }
+]

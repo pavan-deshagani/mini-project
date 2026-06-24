@@ -1,0 +1,846 @@
+{
+  "Apple Scab Leaf": {
+    "crop": "Apple",
+    "disease": "Apple Scab",
+    "pathogen": "Venturia inaequalis (fungus)",
+    "severity": "moderate",
+    "symptoms": "Olive-green to brown velvety spots on leaves, distortion and early leaf drop",
+    "favorable_conditions": "Cool wet weather, 15–24°C with prolonged leaf wetness",
+    "chemical": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45", "Indofil M-45"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 15,
+        "applications": "3–4 sprays at 10-day intervals starting at bud burst"
+      },
+      {
+        "active_ingredient": "Captan 50% WP",
+        "trade_names": ["Captaf", "Captan 50"],
+        "dosage_per_acre": "500–600 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "Begin at pink bud stage, repeat every 7–10 days"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Bordeaux Mixture 1%",
+        "dosage_per_acre": "500 litres of prepared solution",
+        "notes": "Prepare fresh; apply at bud swell and after petal fall"
+      },
+      {
+        "treatment": "Neem oil 3000 ppm",
+        "dosage_per_acre": "1 litre in 200 litres water",
+        "notes": "Add 1 ml Teepol as emulsifier; spray in early morning or evening"
+      }
+    ],
+    "ipm_notes": "Rake and destroy fallen leaves. Avoid overhead irrigation. Plant resistant varieties like Florina.",
+    "source": "ICAR-CISH, NRC on Apple Solan recommendations"
+  },
+
+  "Apple leaf": {
+    "crop": "Apple",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Continue regular scouting every 7 days. Maintain balanced NPK nutrition. Monitor for early signs of scab or rust.",
+    "source": null
+  },
+
+  "Apple rust leaf": {
+    "crop": "Apple",
+    "disease": "Apple Cedar Rust",
+    "pathogen": "Gymnosporangium juniperi-virginianae (fungus)",
+    "severity": "moderate",
+    "symptoms": "Bright orange-yellow spots on upper leaf surface, tube-like structures on underside",
+    "favorable_conditions": "Wet spring conditions, proximity to juniper/cedar alternate hosts",
+    "chemical": [
+      {
+        "active_ingredient": "Propiconazole 25% EC",
+        "trade_names": ["Tilt", "Bumper"],
+        "dosage_per_acre": "100–120 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 14,
+        "applications": "2–3 sprays starting at pink bud stage"
+      },
+      {
+        "active_ingredient": "Myclobutanil 10% WP",
+        "trade_names": ["Rally", "Systhane"],
+        "dosage_per_acre": "60–80 g",
+        "dilution": "0.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 14,
+        "applications": "Apply at pink bud; repeat at 10-day intervals"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Sulphur 80% WP (wettable sulphur)",
+        "dosage_per_acre": "600–800 g",
+        "notes": "Do not apply when temperature exceeds 32°C; phytotoxicity risk"
+      }
+    ],
+    "ipm_notes": "Remove nearby juniper/cedar trees which are alternate hosts. Prune and destroy infected shoots.",
+    "source": "ICAR-CISH Lucknow, Apple Pest and Disease Management Bulletin"
+  },
+
+  "Bell_pepper leaf": {
+    "crop": "Bell Pepper / Capsicum",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Monitor weekly for thrips (vector of TSWV), aphids, and early blight symptoms. Maintain soil moisture consistency to prevent blossom end rot.",
+    "source": null
+  },
+
+  "Bell_pepper leaf spot": {
+    "crop": "Bell Pepper / Capsicum",
+    "disease": "Bacterial Leaf Spot",
+    "pathogen": "Xanthomonas campestris pv. vesicatoria (bacterium)",
+    "severity": "moderate",
+    "symptoms": "Water-soaked spots turning brown with yellow halo, defoliation under heavy infection",
+    "favorable_conditions": "Warm humid weather 25–30°C, rain splash, wounds from insects",
+    "chemical": [
+      {
+        "active_ingredient": "Copper Oxychloride 50% WP",
+        "trade_names": ["Blitox-50", "Fytolan"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "3 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "Spray at first symptom appearance; repeat every 10 days"
+      },
+      {
+        "active_ingredient": "Streptomycin Sulphate 90% + Tetracycline 10%",
+        "trade_names": ["Paushamycin", "Agrimycin-100"],
+        "dosage_per_acre": "20–24 g",
+        "dilution": "0.1 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "2–3 sprays at 10-day intervals; do not use more than 3 times per season"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Bordeaux Mixture 1%",
+        "dosage_per_acre": "400–500 litres of prepared solution",
+        "notes": "Apply preventively during humid periods"
+      },
+      {
+        "treatment": "Trichoderma viride (bioagent) 1% WP",
+        "dosage_per_acre": "2.5 kg in 500 litres water",
+        "notes": "Soil drenching at transplanting stage for root protection"
+      }
+    ],
+    "ipm_notes": "Use certified disease-free seed. Avoid overhead irrigation. Rotate with non-solanaceous crops for 2 years.",
+    "source": "ICAR-IIVR Varanasi, Pepper Disease Management; TNAU Agritech Portal"
+  },
+
+  "Blueberry leaf": {
+    "crop": "Blueberry",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Blueberry is not a major crop in AP/Telangana. Maintain soil pH 4.5–5.5 for optimal growth. Scout for mummy berry and botrytis in humid conditions.",
+    "source": null
+  },
+
+  "Cherry leaf": {
+    "crop": "Cherry",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Monitor for cherry leaf spot (Blumeriella jaapii) during wet seasons. Avoid wetting foliage during irrigation.",
+    "source": null
+  },
+
+  "Corn Gray leaf spot": {
+    "crop": "Maize / Corn",
+    "disease": "Gray Leaf Spot",
+    "pathogen": "Cercospora zeae-maydis (fungus)",
+    "severity": "severe",
+    "symptoms": "Long rectangular gray-tan lesions parallel to leaf veins, premature death of leaves",
+    "favorable_conditions": "High humidity >80%, temperature 25–30°C, minimum tillage fields with crop residue",
+    "chemical": [
+      {
+        "active_ingredient": "Propiconazole 25% EC",
+        "trade_names": ["Tilt", "Bumper 25 EC"],
+        "dosage_per_acre": "120–160 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 30,
+        "applications": "Apply at VT (tasseling) stage; repeat after 14 days if needed"
+      },
+      {
+        "active_ingredient": "Azoxystrobin 23% SC",
+        "trade_names": ["Amistar", "Azoxy"],
+        "dosage_per_acre": "200 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 14,
+        "applications": "One spray at tasseling; highly effective as preventive"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Pseudomonas fluorescens 1% WP",
+        "dosage_per_acre": "2.5 kg in 500 litres water",
+        "notes": "Foliar application at vegetative stage; repeat at 15-day intervals"
+      }
+    ],
+    "ipm_notes": "Deep ploughing to bury infected residue. Use resistant hybrids (DHM-117, HQPM-1). Avoid late planting.",
+    "source": "ICAR-IIMR Ludhiana, Maize Disease Management Bulletin 2022"
+  },
+
+  "Corn leaf blight": {
+    "crop": "Maize / Corn",
+    "disease": "Northern Corn Leaf Blight (Turcicum Blight)",
+    "pathogen": "Exserohilum turcicum (fungus)",
+    "severity": "severe",
+    "symptoms": "Large cigar-shaped grayish-green lesions 5–15 cm long on leaves, starting from lower leaves",
+    "favorable_conditions": "Moderate temperature 18–27°C, heavy dew, high humidity, dense canopy",
+    "chemical": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45", "Indofil M-45"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 30,
+        "applications": "First spray at disease onset; 2–3 sprays at 10-day intervals"
+      },
+      {
+        "active_ingredient": "Propiconazole 25% EC",
+        "trade_names": ["Tilt"],
+        "dosage_per_acre": "120 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 30,
+        "applications": "At tasseling stage; 1–2 sprays"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Trichoderma harzianum 1% WP",
+        "dosage_per_acre": "2.5 kg in 500 litres water",
+        "notes": "Soil application at sowing; seed treatment at 4 g per kg seed"
+      }
+    ],
+    "ipm_notes": "Use resistant varieties (HQPM-5, Vivek Hybrid 9). Destroy infected crop debris. Avoid overhead irrigation.",
+    "source": "ICAR-IIMR Ludhiana, DRR Technical Bulletin on Maize Diseases"
+  },
+
+  "Corn rust leaf": {
+    "crop": "Maize / Corn",
+    "disease": "Common Rust",
+    "pathogen": "Puccinia sorghi (fungus)",
+    "severity": "moderate",
+    "symptoms": "Small, round to elongated brick-red pustules on both leaf surfaces, powdery spore masses",
+    "favorable_conditions": "Cool temperature 16–23°C, high humidity, dew on leaves",
+    "chemical": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45"],
+        "dosage_per_acre": "600 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 30,
+        "applications": "2–3 sprays at 10-day intervals at first pustule appearance"
+      },
+      {
+        "active_ingredient": "Tebuconazole 25.9% EC",
+        "trade_names": ["Folicur", "Raxil"],
+        "dosage_per_acre": "100–120 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 21,
+        "applications": "Single application at early rust detection"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Wettable Sulphur 80% WP",
+        "dosage_per_acre": "500–600 g",
+        "notes": "Apply in early morning; avoid application above 32°C"
+      }
+    ],
+    "ipm_notes": "Plant early to escape late-season rust build-up. Use resistant hybrids. Avoid excess nitrogen application.",
+    "source": "ICAR-IIMR Ludhiana; TNAU Agritech Portal — Maize Rust Management"
+  },
+
+  "Peach leaf": {
+    "crop": "Peach",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Watch for peach leaf curl (Taphrina deformans) in early spring. Apply copper fungicide at leaf fall and before bud swell as preventive measure.",
+    "source": null
+  },
+
+  "Potato leaf early blight": {
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "pathogen": "Alternaria solani (fungus)",
+    "severity": "moderate",
+    "symptoms": "Dark brown concentric ring spots (target-board pattern) on older leaves, yellow halo around lesions",
+    "favorable_conditions": "Warm days 24–29°C, cool nights, humidity >90%, plants under stress",
+    "chemical": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45", "Indofil M-45"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "Spray at first symptom; repeat every 7–10 days, 4–5 sprays total"
+      },
+      {
+        "active_ingredient": "Chlorothalonil 75% WP",
+        "trade_names": ["Kavach", "Daconil"],
+        "dosage_per_acre": "400 g",
+        "dilution": "2 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "Preventive spray during humid periods; 3–4 sprays"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Copper Hydroxide 77% WP (Kocide)",
+        "dosage_per_acre": "400 g",
+        "notes": "Certified for organic use; apply before disease onset in humid conditions"
+      },
+      {
+        "treatment": "Neem-based formulation (Azadirachtin 0.03%)",
+        "dosage_per_acre": "750 ml in 200 litres water",
+        "notes": "Reduces spore germination; apply every 10 days"
+      }
+    ],
+    "ipm_notes": "Ensure balanced potassium nutrition to increase resistance. Avoid overhead irrigation. Destroy volunteer potato plants.",
+    "source": "ICAR-CPRI Shimla, Potato Disease Management Bulletin 2021"
+  },
+
+  "Potato leaf late blight": {
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "pathogen": "Phytophthora infestans (oomycete)",
+    "severity": "severe",
+    "symptoms": "Water-soaked pale green lesions rapidly turning dark brown, white cottony growth on leaf underside in humid conditions",
+    "favorable_conditions": "Cool temperature 10–21°C, high humidity >90%, prolonged leaf wetness — spreads explosively",
+    "chemical": [
+      {
+        "active_ingredient": "Cymoxanil 8% + Mancozeb 64% WP",
+        "trade_names": ["Curzate M8", "Damicure"],
+        "dosage_per_acre": "600 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "At first blight appearance; repeat every 7 days — critical to not delay"
+      },
+      {
+        "active_ingredient": "Metalaxyl 8% + Mancozeb 64% WP",
+        "trade_names": ["Ridomil Gold MZ", "Master MZ"],
+        "dosage_per_acre": "600 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "Preventive spray at canopy closure; 3–4 sprays at 7-day intervals"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Bordeaux Mixture 0.5%",
+        "dosage_per_acre": "500 litres prepared solution",
+        "notes": "Apply preventively; highly effective when used before disease outbreak"
+      }
+    ],
+    "ipm_notes": "Use certified disease-free seed tubers. Plant resistant varieties (Kufri Jyoti, Kufri Bahar). Avoid irrigation in evening. Destroy infected haulms before harvest.",
+    "source": "ICAR-CPRI Shimla, Late Blight Management Guidelines; CACP Potato Report 2023"
+  },
+
+  "Raspberry leaf": {
+    "crop": "Raspberry",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Raspberry is not a common AP/Telangana crop. If grown, watch for Raspberry leaf spot (Sphaerulina rubi) and cane blight during wet seasons.",
+    "source": null
+  },
+
+  "Soyabean leaf": {
+    "crop": "Soybean",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Scout weekly for sudden death syndrome, frogeye leaf spot, and soybean rust. Monitor for whitefly and thrips vectors during pod filling.",
+    "source": null
+  },
+
+  "Squash Powdery mildew leaf": {
+    "crop": "Squash / Cucurbits",
+    "disease": "Powdery Mildew",
+    "pathogen": "Podosphaera xanthii (fungus)",
+    "severity": "moderate",
+    "symptoms": "White powdery coating on upper and lower leaf surfaces, leaf yellowing and premature senescence",
+    "favorable_conditions": "Warm dry days 20–28°C, high humidity at night, poor air circulation",
+    "chemical": [
+      {
+        "active_ingredient": "Sulphur 80% WP (wettable sulphur)",
+        "trade_names": ["Sulfex", "Thiovit"],
+        "dosage_per_acre": "800 g–1 kg",
+        "dilution": "3 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 3,
+        "applications": "At first symptom; repeat every 10 days, 3–4 sprays"
+      },
+      {
+        "active_ingredient": "Hexaconazole 5% EC",
+        "trade_names": ["Contaf", "Hexadhan"],
+        "dosage_per_acre": "200 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "2–3 sprays at 10-day intervals"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Neem oil 3000 ppm",
+        "dosage_per_acre": "1 litre in 200 litres water",
+        "notes": "Add Teepol as emulsifier; spray in early morning"
+      },
+      {
+        "treatment": "Sodium bicarbonate solution 0.5%",
+        "dosage_per_acre": "200 litres",
+        "notes": "5 g baking soda per litre of water; alters leaf surface pH to inhibit fungus"
+      }
+    ],
+    "ipm_notes": "Ensure wide row spacing for air circulation. Avoid excessive nitrogen. Remove heavily infected leaves.",
+    "source": "ICAR-IIVR Varanasi, Cucurbit Disease Management; TNAU Agritech Portal"
+  },
+
+  "Strawberry leaf": {
+    "crop": "Strawberry",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Monitor for common leaf spot (Mycosphaerella fragariae) and angular leaf spot (Xanthomonas fragariae). Avoid water on foliage.",
+    "source": null
+  },
+
+  "Tomato Early blight leaf": {
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "pathogen": "Alternaria solani (fungus)",
+    "severity": "moderate",
+    "symptoms": "Dark brown concentric ring spots with yellow halo on older leaves, moves upward",
+    "favorable_conditions": "Temperature 24–29°C, humidity >90%, plants under stress or nutrient deficiency",
+    "chemical": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45", "Indofil M-45"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "At first symptom; 3–4 sprays at 10-day intervals"
+      },
+      {
+        "active_ingredient": "Azoxystrobin 23% SC",
+        "trade_names": ["Amistar"],
+        "dosage_per_acre": "200 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 3,
+        "applications": "2 sprays at 14-day intervals; rotate with mancozeb to prevent resistance"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Copper Oxychloride 50% WP",
+        "dosage_per_acre": "600 g",
+        "notes": "3 g per litre; apply at bud initiation stage preventively"
+      },
+      {
+        "treatment": "Trichoderma viride 1% WP",
+        "dosage_per_acre": "2.5 kg in 500 litres water",
+        "notes": "Soil drenching at transplanting; reduces soil-borne Alternaria inoculum"
+      }
+    ],
+    "ipm_notes": "Ensure adequate potassium (K2O) fertilization. Remove and destroy lower infected leaves. Stake plants for better aeration.",
+    "source": "ICAR-IIVR Varanasi, Tomato Production Technology; TNAU Agritech Portal"
+  },
+
+  "Tomato Septoria leaf spot": {
+    "crop": "Tomato",
+    "disease": "Septoria Leaf Spot",
+    "pathogen": "Septoria lycopersici (fungus)",
+    "severity": "moderate",
+    "symptoms": "Small circular spots with dark border and light gray center, dark spore-producing bodies in center of spots",
+    "favorable_conditions": "Warm humid conditions 20–25°C, prolonged wetness, rain splash spreads spores",
+    "chemical": [
+      {
+        "active_ingredient": "Chlorothalonil 75% WP",
+        "trade_names": ["Kavach", "Daconil 75"],
+        "dosage_per_acre": "400 g",
+        "dilution": "2 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "At first symptom appearance; repeat every 7–10 days"
+      },
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45"],
+        "dosage_per_acre": "600 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "Alternate with Chlorothalonil; 3–4 sprays total"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Copper-based fungicide (Bordeaux Mixture 1%)",
+        "dosage_per_acre": "400 litres prepared solution",
+        "notes": "Apply preventively; effective when started before disease establishment"
+      }
+    ],
+    "ipm_notes": "Remove lower leaves showing first symptoms. Mulch soil to reduce rain splash. Avoid working in wet foliage. Use drip irrigation.",
+    "source": "ICAR-IIVR Varanasi; TNAU Agritech Portal — Tomato Disease Management"
+  },
+
+  "Tomato leaf": {
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Maintain weekly scouting. Watch for early blight symptoms on lower leaves, curling (virus indicator), and white fly colonies on leaf undersides. Ensure consistent drip irrigation.",
+    "source": null
+  },
+
+  "Tomato leaf bacterial spot": {
+    "crop": "Tomato",
+    "disease": "Bacterial Spot",
+    "pathogen": "Xanthomonas vesicatoria (bacterium)",
+    "severity": "moderate",
+    "symptoms": "Small water-soaked spots turning dark brown with greasy appearance, raised lesions on fruit surface",
+    "favorable_conditions": "Warm wet weather 24–30°C, rain, overhead irrigation, infected seed",
+    "chemical": [
+      {
+        "active_ingredient": "Copper Oxychloride 50% WP",
+        "trade_names": ["Blitox-50", "Fytolan"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "3 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "At first symptom; 3–4 sprays at 10-day intervals"
+      },
+      {
+        "active_ingredient": "Streptomycin Sulphate 90% + Tetracycline 10%",
+        "trade_names": ["Paushamycin"],
+        "dosage_per_acre": "20 g",
+        "dilution": "100 mg (0.1 g) per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "2 sprays at 10-day interval; avoid overuse — antibiotic resistance risk"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Bordeaux Mixture 1%",
+        "dosage_per_acre": "500 litres prepared solution",
+        "notes": "Apply preventively during wet seasons; best results before infection establishes"
+      },
+      {
+        "treatment": "Pseudomonas fluorescens 1% WP",
+        "dosage_per_acre": "2.5 kg in 500 litres water",
+        "notes": "Foliar spray; biocontrol agent producing antibacterial compounds"
+      }
+    ],
+    "ipm_notes": "Use certified disease-free seed. Hot water seed treatment: 52°C for 30 minutes. Switch to drip irrigation. Rotate with non-solanaceous crops.",
+    "source": "ICAR-IIVR Varanasi, Tomato Bacterial Diseases; CIB&RC registration data"
+   },
+
+  "Tomato leaf late blight": {
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "pathogen": "Phytophthora infestans (oomycete)",
+    "severity": "severe",
+    "symptoms": "Greasy water-soaked lesions rapidly turning dark brown, white mold on leaf undersides, characteristic foul smell",
+    "favorable_conditions": "Cool nights <12°C, warm days, humidity >90%, rain — spreads extremely rapidly",
+    "chemical": [
+      {
+        "active_ingredient": "Cymoxanil 8% + Mancozeb 64% WP",
+        "trade_names": ["Curzate M8"],
+        "dosage_per_acre": "600 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 7,
+        "applications": "At FIRST appearance — do not delay; repeat every 5–7 days"
+      },
+      {
+        "active_ingredient": "Dimethomorph 50% WP",
+        "trade_names": ["Acrobat", "Forum"],
+        "dosage_per_acre": "200 g",
+        "dilution": "1 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 3,
+        "applications": "2 applications max per season; highly systemic — use in rotation"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Bordeaux Mixture 0.5%",
+        "dosage_per_acre": "500 litres",
+        "notes": "Apply preventively; once late blight establishes, organic options are limited"
+      }
+    ],
+    "ipm_notes": "Remove and burn infected plant parts immediately. Avoid working in wet fields. Spray in morning so leaves dry by evening. This is the most destructive tomato disease — act fast.",
+    "source": "ICAR-IIVR Varanasi; CPRI Shimla Late Blight Monitoring Network guidelines"
+  },
+
+  "Tomato leaf mosaic virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Mosaic Virus (ToMV)",
+    "pathogen": "Tomato mosaic virus — Tobamovirus (virus)",
+    "severity": "moderate",
+    "symptoms": "Light and dark green mosaic pattern on leaves, leaf distortion, stunting, reduced fruit set",
+    "favorable_conditions": "Spreads by contact, contaminated tools, infected seed — not insect-vectored",
+    "chemical": [
+      {
+        "active_ingredient": "No curative chemical available for virus",
+        "trade_names": [],
+        "dosage_per_acre": "N/A",
+        "dilution": "N/A",
+        "application_method": "N/A",
+        "phi_days": null,
+        "applications": "Remove and destroy infected plants immediately"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Neem oil spray 3000 ppm",
+        "dosage_per_acre": "1 litre in 200 litres water",
+        "notes": "Controls sucking pests that stress plants; does not cure virus"
+      }
+    ],
+    "ipm_notes": "No chemical cure for viral diseases. Rogue out infected plants immediately. Disinfect hands and tools with soap or 1% sodium hypochlorite. Use virus-indexed seed. Control aphids and thrips as secondary vectors.",
+    "source": "ICAR-IIVR Varanasi, Viral Disease Management in Tomato 2022"
+  },
+
+  "Tomato leaf yellow virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "pathogen": "Begomovirus transmitted by Bemisia tabaci whitefly (virus)",
+    "severity": "severe",
+    "symptoms": "Upward leaf curling, yellowing of leaf margins, stunted growth, complete crop loss in severe cases",
+    "favorable_conditions": "High whitefly population, temperature 25–35°C, dry conditions favour whitefly vector",
+    "chemical": [
+      {
+        "active_ingredient": "Imidacloprid 17.8% SL (whitefly vector control)",
+        "trade_names": ["Confidor", "Admire"],
+        "dosage_per_acre": "60–80 ml",
+        "dilution": "0.3 ml per litre of water",
+        "application_method": "Foliar spray or soil drench at transplanting",
+        "phi_days": 7,
+        "applications": "Seed treatment + 2 foliar sprays at 15-day intervals; do not use more than 2 foliar applications"
+      },
+      {
+        "active_ingredient": "Thiamethoxam 25% WG (whitefly control)",
+        "trade_names": ["Actara", "Anant"],
+        "dosage_per_acre": "40–60 g",
+        "dilution": "0.2 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 3,
+        "applications": "Rotate with imidacloprid; 2–3 sprays at 15-day intervals"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Yellow sticky traps",
+        "dosage_per_acre": "40–50 traps",
+        "notes": "Install at crop canopy height for whitefly monitoring and mass trapping"
+      },
+      {
+        "treatment": "Neem oil 3000 ppm + soap solution",
+        "dosage_per_acre": "1 litre neem oil in 200 litres water",
+        "notes": "Repels whitefly; apply every 7 days"
+      }
+    ],
+    "ipm_notes": "TYLCV has NO cure — control is entirely through vector (whitefly) management. Rogue out infected plants. Use reflective silver mulch to repel whiteflies. Plant virus-resistant varieties (Arka Rakshak, Pusa Rohini). This is the most damaging tomato virus in AP/Telangana.",
+    "source": "ICAR-IIVR Varanasi; ANGRAU, Hyderabad — TYLCV Management Advisory"
+  },
+
+  "Tomato mold leaf": {
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "pathogen": "Passalora fulva / Cladosporium fulvum (fungus)",
+    "severity": "moderate",
+    "symptoms": "Pale green to yellow spots on upper leaf surface, olive-brown velvety mold on underside",
+    "favorable_conditions": "High humidity >85%, temperature 22–25°C, poor ventilation — common in greenhouse/polyhouse tomato",
+    "chemical": [
+      {
+        "active_ingredient": "Chlorothalonil 75% WP",
+        "trade_names": ["Kavach"],
+        "dosage_per_acre": "400 g",
+        "dilution": "2 g per litre of water",
+        "application_method": "Foliar spray (underside coverage critical)",
+        "phi_days": 7,
+        "applications": "3–4 sprays at 7-day intervals"
+      },
+      {
+        "active_ingredient": "Azoxystrobin 23% SC",
+        "trade_names": ["Amistar"],
+        "dosage_per_acre": "200 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 3,
+        "applications": "2 sprays at 14-day intervals"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Trichoderma viride 1% WP foliar",
+        "dosage_per_acre": "2.5 kg in 500 litres water",
+        "notes": "Competitive exclusion; spray on leaf undersides where mold develops"
+      }
+    ],
+    "ipm_notes": "Improve ventilation in polyhouse. Maintain humidity below 85%. Remove lower infected leaves. Avoid overhead irrigation. Stake plants to improve air flow.",
+    "source": "ICAR-IIVR Varanasi; NHB Protected Cultivation Guidelines 2021"
+  },
+
+  "Tomato two spotted spider mites leaf": {
+    "crop": "Tomato",
+    "disease": "Two-Spotted Spider Mite Infestation",
+    "pathogen": "Tetranychus urticae (arachnid pest — not a fungal disease)",
+    "severity": "moderate",
+    "symptoms": "Fine stippling/bronzing on upper leaf surface, fine webbing on leaf undersides, leaf desiccation in severe cases",
+    "favorable_conditions": "Hot dry conditions >30°C, low humidity, dusty conditions — population explosions in summer",
+    "chemical": [
+      {
+        "active_ingredient": "Abamectin 1.9% EC (miticide)",
+        "trade_names": ["Vertimec", "Agrimec"],
+        "dosage_per_acre": "200–250 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray — thorough coverage including undersides",
+        "phi_days": 3,
+        "applications": "2 sprays at 7-day intervals; highly effective but rotate to prevent resistance"
+      },
+      {
+        "active_ingredient": "Spiromesifen 22.9% SC",
+        "trade_names": ["Oberon"],
+        "dosage_per_acre": "200 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 3,
+        "applications": "1–2 applications; ovicidal action kills eggs and larvae"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Neem oil 3000 ppm",
+        "dosage_per_acre": "1 litre in 200 litres water",
+        "notes": "Disrupts mite moulting; apply every 5–7 days for 3 cycles"
+      },
+      {
+        "treatment": "Wettable Sulphur 80% WP",
+        "dosage_per_acre": "600 g",
+        "notes": "3 g per litre; contact miticide — do not apply above 35°C"
+      }
+    ],
+    "ipm_notes": "Note: This is a pest (mite), not a fungal disease — fungicides are ineffective. Release predatory mites (Phytoseiulus persimilis) as biocontrol. Avoid dusty field conditions. Do not overuse broad-spectrum insecticides which kill natural enemies.",
+    "source": "ICAR-IIVR Varanasi; NHB IPM Guidelines for Tomato 2022; CIB&RC registered miticides list"
+  },
+
+  "grape leaf": {
+    "crop": "Grape",
+    "disease": "Healthy",
+    "pathogen": null,
+    "severity": "none",
+    "symptoms": "No disease detected. Leaf appears healthy.",
+    "favorable_conditions": null,
+    "chemical": [],
+    "organic": [],
+    "ipm_notes": "Scout for downy mildew (Plasmopara viticola) and powdery mildew (Uncinula necator) which are the major threats to grapes in AP/Telangana. Apply protective copper sprays before monsoon onset.",
+    "source": null
+  },
+
+  "grape leaf black rot": {
+    "crop": "Grape",
+    "disease": "Black Rot",
+    "pathogen": "Guignardia bidwellii (fungus)",
+    "severity": "severe",
+    "symptoms": "Circular reddish-brown leaf lesions with dark border, black shriveled mummified berries",
+    "favorable_conditions": "Warm wet weather 22–29°C during flowering and fruit set, rain splash, infected mummified berries from previous season",
+    "chemical": [
+      {
+        "active_ingredient": "Mancozeb 75% WP",
+        "trade_names": ["Dithane M-45", "Indofil M-45"],
+        "dosage_per_acre": "600–800 g",
+        "dilution": "2.5 g per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 21,
+        "applications": "Begin at bud break; 3–4 sprays at 10-day intervals through berry set"
+      },
+      {
+        "active_ingredient": "Tebuconazole 25.9% EC",
+        "trade_names": ["Folicur"],
+        "dosage_per_acre": "100–120 ml",
+        "dilution": "1 ml per litre of water",
+        "application_method": "Foliar spray",
+        "phi_days": 21,
+        "applications": "2 sprays: at 50% bloom and 10 days after"
+      }
+    ],
+    "organic": [
+      {
+        "treatment": "Bordeaux Mixture 0.5–1%",
+        "dosage_per_acre": "500 litres prepared solution",
+        "notes": "Traditional and highly effective; apply from bud break through berry set"
+      }
+    ],
+    "ipm_notes": "Remove and destroy all mummified berries and infected canes during dormant pruning — primary inoculum source. Ensure good canopy management for air circulation. This disease can cause 100% crop loss in unsprayed vineyards.",
+    "source": "NRC for Grapes Pune (ICAR-NRC Grapes), Grape Protection Bulletin; TNAU Agritech Portal"
+  }
+}

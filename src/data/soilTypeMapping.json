@@ -1,0 +1,59 @@
+{
+  "_comment": "Bridge file that solves the vocabulary mismatch between indianDistrictData.json soil types and cropDetails.json soil types. Three-layer mapping: District raw types → User-facing standardized options → Crop-compatible soil type keywords.",
+
+  "userFacingOptions": [
+    { "id": "alluvial", "label": "Alluvial", "description": "River-deposited, fertile, found in plains" },
+    { "id": "black_cotton", "label": "Black Cotton", "description": "Dark, clayey, cracks in dry season — common in Maharashtra, MP, AP" },
+    { "id": "red_soil", "label": "Red Soil", "description": "Reddish due to iron oxide, moderately fertile" },
+    { "id": "laterite", "label": "Laterite", "description": "Acidic, iron-rich, found in Western Ghats, NE India" },
+    { "id": "sandy", "label": "Sandy", "description": "Coarse, low water retention, found in arid zones" },
+    { "id": "sandy_loam", "label": "Sandy Loam", "description": "Mix of sand and loam — good drainage, moderate fertility" },
+    { "id": "loam", "label": "Loam", "description": "Balanced sand/silt/clay — ideal for most crops" },
+    { "id": "clay_loam", "label": "Clay Loam", "description": "Heavy texture, good moisture retention" },
+    { "id": "clay", "label": "Clay", "description": "Very fine texture, high water retention, slow drainage" }
+  ],
+
+  "districtToCropSoilMap": {
+    "_comment": "Maps district JSON soil_types[] values → user-facing option IDs. When a district is selected, use this to pre-suggest the soil type in the UI form.",
+    "Alluvial": "alluvial",
+    "Alluvial (Newer)": "alluvial",
+    "Alluvial Sandy": "sandy_loam",
+    "Sandy Alluvial": "sandy_loam",
+    "Black": "black_cotton",
+    "Desert Sandy": "sandy",
+    "Sandy": "sandy",
+    "Sandy Coral": "sandy",
+    "Sandy Loam": "sandy_loam",
+    "Red": "red_soil",
+    "Red Loamy": "red_soil",
+    "Red Sandy": "red_soil",
+    "Red Sandy Loam": "sandy_loam",
+    "Laterite": "laterite",
+    "Yellow": "laterite",
+    "Kari": "sandy_loam",
+    "Mixed": "loam",
+    "Mountain": "sandy_loam",
+    "Mountain Forest": "loam",
+    "Mountain Loam": "loam",
+    "Mountain Sandy Loam": "sandy_loam",
+    "Mountain Stony": "sandy"
+  },
+
+  "userFacingToCropSoils": {
+    "_comment": "Maps user-facing soil option IDs → list of soil type strings as they appear in cropDetails.json suitable_soil_types. Matching is done by checking if any crop soil type CONTAINS or IS CONTAINED BY any string in this list (case-insensitive).",
+    "alluvial": ["Alluvial", "Deep Alluvial", "Sandy Alluvial", "Loam", "Sandy Loam", "Silty Loam", "Clay Loam", "Silt Loam"],
+    "black_cotton": ["Black Cotton", "Black Cotton Soil", "Vertisol", "Clay", "Clay Loam"],
+    "red_soil": ["Red Soil", "Red Loam", "Red Laterite", "Red", "Loam", "Sandy Loam", "Laterite"],
+    "laterite": ["Laterite", "Red Laterite", "Acidic Loam", "Sandy Loam", "Forest"],
+    "sandy": ["Sandy", "Sandy Loam", "Loamy Sand", "Red Sandy", "Desert Sandy"],
+    "sandy_loam": ["Sandy Loam", "Sandy", "Loam", "Red Sandy Loam", "Well-drained", "Loamy Sand"],
+    "loam": ["Loam", "Sandy Loam", "Silt Loam", "Silty Loam", "Clay Loam", "Well-drained"],
+    "clay_loam": ["Clay Loam", "Clay", "Silty Clay", "Silty Loam", "Black Cotton Soil", "Vertisol"],
+    "clay": ["Clay", "Clay Loam", "Silty Clay", "Black Cotton Soil", "Vertisol"]
+  },
+
+  "broadCompatibilitySoils": {
+    "_comment": "These soil type keywords in cropDetails indicate the crop tolerates a wide variety of soils. Give a partial match score (0.6) even if primary mapping doesn't match.",
+    "keywords": ["Various", "Well-drained", "Alluvial"]
+  }
+}

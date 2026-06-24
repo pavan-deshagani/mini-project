@@ -1,0 +1,53 @@
+{
+  "_comment": "Maps user-facing water availability options to numeric levels, and crop water_requirement_level strings to the same numeric scale. Scoring penalizes crops whose water need is far above the farmer's available water.",
+
+  "userOptions": [
+    {
+      "id": "rainfed_only",
+      "label": "Rainfed",
+      "description": "No irrigation, depends entirely on rainfall",
+      "level": 1
+    },
+    {
+      "id": "limited_irrigation",
+      "label": "Limited",
+      "description": "1–2 irrigations available (well/borewell with low yield)",
+      "level": 2
+    },
+    {
+      "id": "moderate_irrigation",
+      "label": "Moderate",
+      "description": "Regular irrigation available (canal, seasonal borewell)",
+      "level": 3
+    },
+    {
+      "id": "good_irrigation",
+      "label": "Good Supply",
+      "description": "Reliable irrigation throughout season (drip/sprinkler/canal)",
+      "level": 4
+    },
+    {
+      "id": "very_high_irrigation",
+      "label": "Flooded",
+      "description": "Continuous water supply or flooded conditions (paddy/sugarcane)",
+      "level": 5
+    }
+  ],
+
+  "cropWaterRequirementLevels": {
+    "_comment": "Maps crop water_requirement_level strings from cropDetails.json to numeric scale 1–5",
+    "Low": 1.5,
+    "Low-Medium": 2,
+    "Medium": 3,
+    "Medium-High": 3.5,
+    "High": 4,
+    "Very High": 5
+  },
+
+  "scoringPenalty": {
+    "_comment": "Penalty rules. If crop needs MORE water than available, penalize heavily. If crop needs LESS water than available, minor penalty (overwatering risk).",
+    "deficit_penalty_per_level": 0.25,
+    "surplus_penalty_per_level": 0.05,
+    "max_deficit_levels_before_zero": 3
+  }
+}
